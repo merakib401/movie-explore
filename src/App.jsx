@@ -3,7 +3,6 @@ import { RouterProvider } from 'react-router';
 import './App.css'
 import Layout from './Layout';
 import Home from './Pages/Home';
-import About from './Pages/About';
 import MoviesList from './Pages/MoviesList';
 
 
@@ -20,10 +19,7 @@ const router = createBrowserRouter([
         index: true,
         Component:Home
       },
-        {
-          path: "/about",
-          Component: About
-        },
+       
         {
           path: "/movie-list",
           Component: MoviesList
